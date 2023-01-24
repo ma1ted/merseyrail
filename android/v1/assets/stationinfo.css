@@ -1,0 +1,67 @@
+body {
+font-family:arial;
+margin:0;
+}
+p,h3,h2,h4{
+margin-left:10px;
+margin-right:10px;
+}
+img {width:100%;}
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+ul li {
+background-color:#fbd61a;
+padding:12px 0 12px 20px;
+border-bottom:solid 1px white;
+background-image:url(arrow_black_forward@2x.png);
+background-size:18px;
+background-position:right center;
+background-repeat:no-repeat;
+}
+ul li a {
+font-weight:bold;
+color:black;
+text-decoration:none;
+display:block;
+}
+
+.station-facilities{
+padding:5px 10px 5px 10px;
+background-color:#f0f0f0;
+}
+ul.station-facilities li{
+background-color:transparent;
+padding:12px 0 12px 50px;
+background-size:30px;
+background-position:left center;
+font-weight:bold;
+border:none;
+}
+.icon-mug {background-image:url(icons/mug.png);}
+.icon-info {background-image:url(icons/info.png);}
+.icon-question {background-image:url(icons/question.png);}
+.icon-plane {background-image:url(icons/plane.png);}
+.icon-network-pc {background-image:url(icons/network-pc.png);}
+.icon-phone {background-image:url(icons/phone.png);}
+.icon-house {background-image:url(icons/house.png);}
+.icon-fullaccess {background-image:url(icons/fullaccess.png);}
+.icon-parking {background-image:url(icons/parking.png);}
+.icon-hearingloop {background-image:url(icons/hearingloop.png);}
+.icon-escalators {background-image:url(icons/escalators.png);}
+.icon-toilets {background-image:url(icons/toilets.png);}
+.icon-cctv {background-image:url(icons/cctv.png);}
+.icon-cashpoint {background-image:url(icons/cashpoint.png);}
+.icon-cyclerack {background-image:url(icons/cyclerack.png);}
+.icon-lift {background-image:url(icons/lift.png);}
+.icon-ticketmachine {background-image:url(icons/ticketmachine.png);}
+.icon-noparking {background-image:url(icons/noparking.png);}
+.icon-securecycling {background-image:url(icons/securecycling.png);}
+.icon-secureparking {background-image:url(icons/secureparking.png);}
+.icon-securestation {background-image:url(icons/securestation.png);}
+.icon-securestation {background-image:url(icons/securestation.png);}
+.icon-lostproperty {background-image:url(icons/lostproperty.png);}
+.icon-bikego {background-image:url(icons/bikego.png);}

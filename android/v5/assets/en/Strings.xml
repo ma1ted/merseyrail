@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Merseytravel</string>
+  <string name="ReportIssue_content">Stop Location:\nStop Ref:\nIs the bus timetable poster missing?\nIs the bus stop/shelter damaged?\nDetails:</string>
+  <string name="Miles">miles</string>
+  <string name="ReportIssue_subject">Report Stop Issue</string>
+  <string name="Sidebar_ReportIssue">Report Stop Issue</string>
+  <string name="Sidebar_ReportIssue_Subtitle">Report issues such as damage</string>
+  <string name="Sidebar_PersonalArea">My departures</string>
+  <string name="Sidebar_disruptions_external">Disruptions</string>
+  <string name="Sidebar_disruptions_external_Subtitle"></string>
+  <string name="Sidebar_privacy">Privacy</string>
+  <string name="Sidebar_privacy_Subtitle"></string>
+  <string name="Title_disruptions_external">Disruptions</string>
+  <string name="Title_PersonalAreaManagementPage">My departures</string>
+  <string name="PersonalArea_NoOdv">Choose a destination</string>
+  <string name="Sidebar_Departures_Subtitle">When are the next departures or arrivals at a specific point?</string>
+  <string name="Sidebar_Departures">Departures</string>
+  <string name="Sidebar_Trips">Trips</string>
+  <string name="Sidebar_Trips_Subtitle">How to get from A to B?</string>
+  <string name="Sidebar_Settings_Subtitle">How can I adjust the app to my needs?</string>
+  <string name="Sidebar_Infos_Subtitle">Imprint, legal notes, user guide etc.</string>
+  <string name="Origin_Input_Hint">e.g. bus stop, postcode, street, point of interest</string>
+  <string name="Destination_Input_Hint">e.g. bus stop, postcode, street, point of interest</string>
+  <string name="DeparturePoint_Input_Hint">e.g. bus stop, postcode, street, point of interest</string>
+  <string name="Settings_exclMOT_0">Rail</string>
+  <string name="Settings_exclMOT_7">Coach</string>
+  <string name="SettingsGroup_FootwalkOptions">Walking options</string>
+  <string name="Settings_changeSpeed">Walk speed</string>
+  <string name="Settings_trITMOTvalue100">Maximum walk time</string>
+  <string name="Settings_useProxFootSearch_Active">include nearby alternative stops</string>
+  <string name="Settings_noSolidStairs">No stairs</string>
+  <string name="Settings_noEscalators">No escalators</string>
+  <string name="Settings_noElevators">no lifts</string>
+  <string name="Title_privacy">Privacy</string>
+  <string name="Title_TripPage">Trips</string>
+</resources>

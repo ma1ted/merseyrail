@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Merseytravel</string>
+  <string name="ReportIssue_content">Stop Location:\nStop Ref:\nIs the bus timetable poster missing?\nIs the bus stop/shelter damaged?\nDetails:</string>
+  <string name="ReportIssue_subject">Report Stop Issue</string>
+  <string name="Sidebar_ReportIssue">Report Stop Issue</string>
+  <string name="Sidebar_ReportIssue_Subtitle"></string>
+  <string name="Sidebar_disruptions_external">Disruptions</string>
+  <string name="Title_disruptions_external">Disruptions</string>
+  <string name="Sidebar_disruptions_external_Subtitle">What disruptions are currently affecting the transport network</string>
+  <string name="Settings_exclMOT_7">Coach</string>
+  <string name="Title_privacy">Privacy</string>
+</resources>

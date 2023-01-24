@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0F40454E-C188-4BE7-A7EF-C6701D92FB19}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>Preview</LangVersion>
+    <AssemblyName>Merseyrail</AssemblyName>
+    <TargetFrameworkIdentifier>MonoAndroid</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Mono.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Fragment">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Android.Support.Fragment.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Core.UI">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Android.Support.Core.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Analytics.Impl">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.GooglePlayServices.Analytics.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="Java.Interop">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Java.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Maps">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.GooglePlayServices.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Location">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.GooglePlayServices.Location.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.GooglePlayServices.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Basement">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Compat">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Android.Support.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Firebase.Messaging">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Firebase.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Crashes">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Microsoft.AppCenter.Crashes.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Firebase.Iid">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Firebase.Iid.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.Picasso">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Square.Picasso.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Analytics">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Microsoft.AppCenter.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Microsoft.AppCenter.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Firebase.Common">
+      <HintPath>C:\Users\malted\Code\merseyrail\android\v1\assemblies\Xamarin.Firebase.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationIcon Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Merseyrail.Activities\DeveloperActivity.cs" />
+    <Compile Include="Merseyrail.Activities\FaqActivity.cs" />
+    <Compile Include="Merseyrail.Activities\FaqsActivity.cs" />
+    <Compile Include="Merseyrail.Activities\OfferActivity.cs" />
+    <Compile Include="Merseyrail.Adapters.LayoutMana\NestedLayoutManager.cs" />
+    <Compile Include="Merseyrail.Adapters.ViewHolder\OfferViewHolder.cs" />
+    <Compile Include="Merseyrail.Adapters\DeveloperItem.cs" />
+    <Compile Include="Merseyrail.Adapters\DeveloperListAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\FaqAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\ImageAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\LiveTrainStationsListAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\OfferAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\SettingsV2ListAdapter.cs" />
+    <Compile Include="Merseyrail.Adapters\TrainJourneyListAdapter.cs" />
+    <Compile Include="Merseyrail.AppWidgets\DeparturesWidgetPreferencesAct.cs" />
+    <Compile Include="Merseyrail.AppWidgets\DeparturesWidgetProvider.cs" />
+    <Compile Include="Merseyrail.AppWidgets\DeparturesWidgetProviderExtens.cs" />
+    <Compile Include="Merseyrail.AppWidgets\DeparturesWidgetService.cs" />
+    <Compile Include="Merseyrail.AppWidgets\LinqExtensions.cs" />
+    <Compile Include="Merseyrail.AppWidgets\LocationUpdater.cs" />
+    <Compile Include="Merseyrail.AppWidgets\RemoteViewsFactory.cs" />
+    <Compile Include="Merseyrail.AppWidgets\StackRemoteViewsFactory.cs" />
+    <Compile Include="Merseyrail.AppWidgets\WidgetDataModel.cs" />
+    <Compile Include="Merseyrail.AppWidgets\WidgetDepartureItem.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\DeparturesListItemClickReceive.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\JourneyPlannerProgressReceiver.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\LocationUpdatedReceiver.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\ReceiverTypes.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\WidgetStationSelectedEventArgs.cs" />
+    <Compile Include="Merseyrail.BroadcastReceivers\WidgetStationSelectedReceiver.cs" />
+    <Compile Include="Merseyrail.Domain\TrainJourneyItem.cs" />
+    <Compile Include="Merseyrail.Events\RedeemTimerFinishEventArgs.cs" />
+    <Compile Include="Merseyrail.Events\RedeemTimerTickEventArgs.cs" />
+    <Compile Include="Merseyrail.Firebase.Messaging\MerseyrailFirebaseMessagingSer.cs" />
+    <Compile Include="Merseyrail.Fragments\BaseFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\CompassFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\CustomClient.cs" />
+    <Compile Include="Merseyrail.Fragments\DateTimeDialogClosedEventArgs.cs" />
+    <Compile Include="Merseyrail.Fragments\DateTimeDialogFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\Departures.cs" />
+    <Compile Include="Merseyrail.Fragments\Feedback.cs" />
+    <Compile Include="Merseyrail.Fragments\JourneyPlanner.cs" />
+    <Compile Include="Merseyrail.Fragments\JourneyPlannerDetail.cs" />
+    <Compile Include="Merseyrail.Fragments\JourneyPlannerList.cs" />
+    <Compile Include="Merseyrail.Fragments\ListHeader.cs" />
+    <Compile Include="Merseyrail.Fragments\LiveMap.cs" />
+    <Compile Include="Merseyrail.Fragments\LiveTrain.cs" />
+    <Compile Include="Merseyrail.Fragments\LiveTrainAlert.cs" />
+    <Compile Include="Merseyrail.Fragments\MapFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\MenuFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\MenuItem.cs" />
+    <Compile Include="Merseyrail.Fragments\PagedFragmentBase.cs" />
+    <Compile Include="Merseyrail.Fragments\PagedFragmentSection.cs" />
+    <Compile Include="Merseyrail.Fragments\PageDirection.cs" />
+    <Compile Include="Merseyrail.Fragments\PageHeader.cs" />
+    <Compile Include="Merseyrail.Fragments\RainbowBoard.cs" />
+    <Compile Include="Merseyrail.Fragments\RainbowBoardItem.cs" />
+    <Compile Include="Merseyrail.Fragments\SectionFragmentBase.cs" />
+    <Compile Include="Merseyrail.Fragments\SectionFragmentType.cs" />
+    <Compile Include="Merseyrail.Fragments\Settings.cs" />
+    <Compile Include="Merseyrail.Fragments\SettingsV2.cs" />
+    <Compile Include="Merseyrail.Fragments\StationDetail.cs" />
+    <Compile Include="Merseyrail.Fragments\StationSelector.cs" />
+    <Compile Include="Merseyrail.Fragments\TimePickerFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\TrainJourneyList.cs" />
+    <Compile Include="Merseyrail.Fragments\WebViewFragment.cs" />
+    <Compile Include="Merseyrail.Fragments\WirralTrackReplacementView.cs" />
+    <Compile Include="Merseyrail.Helpers\AppInitHelpers.cs" />
+    <Compile Include="Merseyrail.Helpers\BitmapHelpers.cs" />
+    <Compile Include="Merseyrail.Helpers\CalamityHelpers.cs" />
+    <Compile Include="Merseyrail.Helpers\NotificationHelper.cs" />
+    <Compile Include="Merseyrail.Helpers\ObjectTypeHelper.cs" />
+    <Compile Include="Merseyrail.Helpers\PermissionHelper.cs" />
+    <Compile Include="Merseyrail.Helpers\UIUtils.cs" />
+    <Compile Include="Merseyrail.Helpers\UnitHelpers.cs" />
+    <Compile Include="Merseyrail.Notifications.Model\BaseAlert.cs" />
+    <Compile Include="Merseyrail.Notifications.Model\CalamityFCMAlert.cs" />
+    <Compile Include="Merseyrail.Notifications.Model\IncidentAlert.cs" />
+    <Compile Include="Merseyrail.Notifications.Model\ReminderAlert.cs" />
+    <Compile Include="Merseyrail.Notifications\BaseNotification.cs" />
+    <Compile Include="Merseyrail.Notifications\CalamityNotification.cs" />
+    <Compile Include="Merseyrail.Notifications\IncidentNotification.cs" />
+    <Compile Include="Merseyrail.Notifications\INotificationHandler.cs" />
+    <Compile Include="Merseyrail.Notifications\ReminderNotification.cs" />
+    <Compile Include="Merseyrail.Pager\NonSwipePager.cs" />
+    <Compile Include="Merseyrail.Providers\DeparturesWidgetContentProvide.cs" />
+    <Compile Include="Merseyrail.Providers\MerseyrailDatabase.cs" />
+    <Compile Include="Merseyrail.Rotator\RotateView.cs" />
+    <Compile Include="Merseyrail.Services\DatabaseFileService.cs" />
+    <Compile Include="Merseyrail.Services\FragmentService.cs" />
+    <Compile Include="Merseyrail.Services\LocationService.cs" />
+    <Compile Include="Merseyrail.Services\SettingsService.cs" />
+    <Compile Include="Merseyrail.Shared\SharedServices.cs" />
+    <Compile Include="Merseyrail.Shared\SharedSettings.cs" />
+    <Compile Include="Merseyrail.Shared\SharedValues.cs" />
+    <Compile Include="Merseyrail.Timers\RedeemTimer.cs" />
+    <Compile Include="Merseyrail.Views\Arrow.cs" />
+    <Compile Include="Merseyrail.Views\LiveTrainIcon.cs" />
+    <Compile Include="Merseyrail\ActivityResultCodes.cs" />
+    <Compile Include="Merseyrail\AppPreferencesActivity.cs" />
+    <Compile Include="Merseyrail\CalamityAlertActivity.cs" />
+    <Compile Include="Merseyrail\CompassMapActivity.cs" />
+    <Compile Include="Merseyrail\Feedback.cs" />
+    <Compile Include="Merseyrail\HelpDisplay.cs" />
+    <Compile Include="Merseyrail\HelpDisplayItem.cs" />
+    <Compile Include="Merseyrail\HelpOverlayFragment.cs" />
+    <Compile Include="Merseyrail\HelpPageIndicator.cs" />
+    <Compile Include="Merseyrail\JourneyPlannerDetailFareListAd.cs" />
+    <Compile Include="Merseyrail\JourneyPlannerDetailListAdapte.cs" />
+    <Compile Include="Merseyrail\JourneyPlannerListAdapter.cs" />
+    <Compile Include="Merseyrail\LiveMapInfoWindowAdapter.cs" />
+    <Compile Include="Merseyrail\LiveTrain.cs" />
+    <Compile Include="Merseyrail\Loader.cs" />
+    <Compile Include="Merseyrail\Main.cs" />
+    <Compile Include="Merseyrail\MenuItem.cs" />
+    <Compile Include="Merseyrail\MenuItemAdapter.cs" />
+    <Compile Include="Merseyrail\MtogoActivity.cs" />
+    <Compile Include="Merseyrail\MyApplication.cs" />
+    <Compile Include="Merseyrail\NotificationType.cs" />
+    <Compile Include="Merseyrail\NotificationViewer.cs" />
+    <Compile Include="Merseyrail\PreferencesActivity.cs" />
+    <Compile Include="Merseyrail\PreferencesAlertActivity.cs" />
+    <Compile Include="Merseyrail\PreferencesManageAlerts.cs" />
+    <Compile Include="Merseyrail\PreferencesProfileActivity.cs" />
+    <Compile Include="Merseyrail\RainbowBoardIncidentsActivity.cs" />
+    <Compile Include="Merseyrail\RainbowBoardIncidentsListAdapt.cs" />
+    <Compile Include="Merseyrail\ReportAProblem.cs" />
+    <Compile Include="Merseyrail\Resource.cs" />
+    <Compile Include="Merseyrail\RotateView.cs" />
+    <Compile Include="Merseyrail\ShareTrain.cs" />
+    <Compile Include="Merseyrail\StationDetailActivity.cs" />
+    <Compile Include="Merseyrail\StationListAdapter.cs" />
+    <Compile Include="Merseyrail\StationSelectorActivity.cs" />
+    <Compile Include="Merseyrail\TestData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
